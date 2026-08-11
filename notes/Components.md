@@ -11,6 +11,13 @@
 [22dBm](https://robu.in/product/ebyte-e220-900t22d-lora-wireless-uart-module-rssi-ism-868mhz-915mhz-22dbm-module-lora-spread-spectrum-uart-interface-sma-k-antenna/)
 [30dBm](https://robu.in/product/ebyte-e220-900t30d-ebyte-llcc68-wireless-transmitter-module-915mhz-lora-rf-module/)
 
+915MHz
+[sharvi](https://sharvielectronics.com/product/915mhz-lora-gateway-antenna-3dbi-gain-with-sma-male-connector/)
+[amazon](https://www.amazon.in/TX915-JKD-20-Omnidirectional-Communication-Compatible-Meshtastic/dp/B0F7HT92V6/ref=sr_1_8?sr=8-8)
+
+868MHz
+[sharvi](https://sharvielectronics.com/product/868mhz-lora-gateway-antenna-3dbi-gain-with-sma-male-connector/)
+[amazon](https://www.amazon.in/TX868-JKD-20-Wireless-Communication-Antenna-Compatible/dp/B0F7HZ3WBG/ref=sr_1_2?sr=8-2)
 
 #### GPS
 [neo m8n sharvi](https://sharvielectronics.com/product/neo-m8m-gps-module-with-ceramic-active-antenna/)
