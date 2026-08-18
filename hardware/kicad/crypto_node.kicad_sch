@@ -2,9 +2,243 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 6c72b0cb-17b9-42a6-811c-297d0c354af3)
+	(uuid "6c72b0cb-17b9-42a6-811c-297d0c354af3")
 	(paper "A4")
+	(title_block
+		(title "Cryptographical Node")
+		(rev "1.0.0")
+	)
 	(lib_symbols)
+	(sheet
+		(at 19.05 19.05)
+		(size 55.88 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0878dbd6-f23a-45b7-803f-70f55a38d748")
+		(property "Sheetname" "Power"
+			(at 19.05 18.3384 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 19.05 60.2746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "crypto_node"
+				(path "/6c72b0cb-17b9-42a6-811c-297d0c354af3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 19.05)
+		(size 53.34 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "488b74a6-31ba-4017-bdff-d918575fe489")
+		(property "Sheetname" "STM32"
+			(at 88.9 18.3384 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32.kicad_sch"
+			(at 88.9 60.2746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "crypto_node"
+				(path "/6c72b0cb-17b9-42a6-811c-297d0c354af3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 227.33 19.05)
+		(size 53.34 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a6d9426e-b53a-46eb-ac04-bfb7b6f1fcf7")
+		(property "Sheetname" "LoRA"
+			(at 227.33 18.3384 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LoRA.kicad_sch"
+			(at 227.33 61.5446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "crypto_node"
+				(path "/6c72b0cb-17b9-42a6-811c-297d0c354af3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 72.39)
+		(size 55.88 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b388d7dd-e85d-4888-b4a4-ed6170d89183")
+		(property "Sheetname" "Crypt"
+			(at 19.05 71.6784 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Crypt.kicad_sch"
+			(at 19.05 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "crypto_node"
+				(path "/6c72b0cb-17b9-42a6-811c-297d0c354af3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.83 19.05)
+		(size 53.34 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e995d37b-7e81-489c-a8c7-4473f579a36c")
+		(property "Sheetname" "GPS"
+			(at 163.83 18.3384 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPS.kicad_sch"
+			(at 163.83 60.2746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "crypto_node"
+				(path "/6c72b0cb-17b9-42a6-811c-297d0c354af3"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
