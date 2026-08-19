@@ -2974,15 +2974,6 @@
 		(at 128.27 46.99)
 		(uuid "b3db400c-7dbc-4237-a962-86a8906b6491")
 	)
-	(bus_entry
-		(at 165.1 153.67)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9f4a152-933f-43bd-a9aa-f294361c09e7")
-	)
 	(wire
 		(pts
 			(xy 212.09 72.39) (xy 212.09 74.93)
@@ -5377,6 +5368,83 @@
 			(project "crypto_node"
 				(path "/6c72b0cb-17b9-42a6-811c-297d0c354af3/0878dbd6-f23a-45b7-803f-70f55a38d748"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VPP")
+		(at 276.86 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33838fa9-cf3b-4a74-9321-259b8cd3b72c")
+		(property "Reference" "#PWR037"
+			(at 276.86 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+CRYPT_3V3"
+			(at 276.86 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VPP\""
+			(at 276.86 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7c7e6ef-853f-4b8f-9093-dc9e1d68e815")
+		)
+		(instances
+			(project "crypto_node"
+				(path "/6c72b0cb-17b9-42a6-811c-297d0c354af3/0878dbd6-f23a-45b7-803f-70f55a38d748"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
