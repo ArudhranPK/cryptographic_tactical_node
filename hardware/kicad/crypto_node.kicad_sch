@@ -47,6 +47,16 @@
 				(justify left top)
 			)
 		)
+		(pin "battery_charge" output
+			(at 74.93 31.75 0)
+			(uuid "6855f209-ad84-49d0-9684-b46d87c512e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "crypto_node"
 				(path "/6c72b0cb-17b9-42a6-811c-297d0c354af3"
