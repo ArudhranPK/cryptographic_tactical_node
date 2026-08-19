@@ -28,6 +28,8 @@ wwww
 [NOVA 604060](https://robu.in/product/nova-604060-2000mah-3-7v-micro-lipo-battery-pack/) 60.0 x 40.0 x 6.0 mm
 [NOVA 103450](https://robu.in/product/nova-103450-2000mah-3-7v-lipo-battery-pack/) 51.8 x 33.8 x 10.0 mm
 
+PH-A-2mm-2 pin Wafer Male Connector Through Hole Straight
+
 **Required Current**: 500mA
 
 **Continuous Current:** Typically **1A to 2A** (a standard 0.5C to 1C discharge rate).
@@ -36,4 +38,4 @@ wwww
 
 #### Boost converter
 [TPS61023DRLR](https://robu.in/product/tps61023drlr-texas-instruments-boost-type-adjustable-2-2v5-5v-3a-500mv5-5v-sot-563-dc-dc-converters-rohs/) [Datasheet](https://www.ti.com/lit/ds/symlink/tps61023.pdf?ts=1785845464782&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS61023)
-[Inductor SWPA6045S1R0NT](https://robu.in/product/swpa6045s1r0nt-sunlord-1uh-30-5-6a-100khz-6x6x4-5mm-wire-wound-power-inductor-smd/)
+[Inductor SWPA6045S1R0NT]([https://robu.in/product/swpa6045s1r0nt-sunlord-1uh-30-5-6a-100khz-6x6x4-5mm-wire-wound-power-inductor-smd/](https://robu.in/product/swpa8040s1r0nt-1uh-30-6-3a-8ohm-smd-8-0x8-0x4-0mm-power-inductors-pack-of-2/))
