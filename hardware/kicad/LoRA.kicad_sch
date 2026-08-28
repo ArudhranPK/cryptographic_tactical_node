@@ -5,4 +5,26 @@
 	(uuid "7e5e306d-f91f-47a0-9aef-c91b0bb7eb49")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "LORA_TX"
+		(shape output)
+		(at 143.51 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "685d0847-1989-4f15-9f95-cae3e603e623")
+	)
+	(hierarchical_label "LORA_RX"
+		(shape input)
+		(at 143.51 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68665ed4-dd32-4df1-a06e-bab19346035e")
+	)
 )

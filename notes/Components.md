@@ -36,6 +36,8 @@ PH-A-2mm-2 pin Wafer Male Connector Through Hole Straight
 **Peak/Burst Current:** Roughly **3A to 4A**.
 
 [Lipo Charger](https://robu.in/product/smartelex-lipo-charger-basic-microusb/)
+[power distribution and lipo charger IC](https://robu.in/product/mcp73871-2cci-ml-microchip-battery-charger-for-1-cell-of-li-ion-li-pol-battery-6v-input-4-2v-1a-charge-qfn-20/)
+
 
 ### POWER
 #### Boost converter

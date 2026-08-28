@@ -5,4 +5,26 @@
 	(uuid "90b3ac0b-d5bb-456c-bc54-7a80a7bef503")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "CRYPT_SDA"
+		(shape bidirectional)
+		(at 142.24 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2fb0dca7-7018-42f1-bf80-dedd801f21b2")
+	)
+	(hierarchical_label "CRYPT_SCL"
+		(shape input)
+		(at 142.24 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5fdf30f2-080e-4aee-949e-8a4fe8fb2fe6")
+	)
 )

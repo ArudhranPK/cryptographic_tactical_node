@@ -35,7 +35,8 @@
               "title": "Calculation"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,10 +200,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "f8e88b34e2ebeb0f",
+  "active": "419a769424c29848",
   "lastOpenFiles": [
-    "Calculation.md",
     "Components.md",
+    "Calculation.md",
     "Components-omarchy-safeBackup-0001.md",
     "Components.md.partial",
     "Circuits.md",

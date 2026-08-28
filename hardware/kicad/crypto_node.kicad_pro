@@ -396,7 +396,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 3,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -429,7 +429,7 @@
         "uuid": "6c72b0cb-17b9-42a6-811c-297d0c354af3"
       }
     ],
-    "used_designators": "SW1-2,L1-2,Q1-2,U1-5,D1-3,C1-21,#FLG1-9,#PWR1-38,BT1-2,J1,R1-9",
+    "used_designators": "R1-9,R12-27,R29,R33,R36-37,R39,JP2-4,J1,J5-6,J19,BT1-2,Y1-2,#PWR1-38,#PWR46,#PWR48-82,#PWR87-88,#PWR99,#PWR104,#PWR113-114,#PWR121-122,#FLG1-12,C1-21,C28-45,C49-50,C67,D1-11,U1-7,Q1-2,L1-2,SW1-2,S1-2",
     "variants": []
   },
   "sheets": [
@@ -456,6 +456,10 @@
     [
       "b388d7dd-e85d-4888-b4a4-ed6170d89183",
       "Crypt"
+    ],
+    [
+      "e87e5251-6a6f-477d-99f2-f9bb3f6c7b88",
+      "Tampering"
     ]
   ],
   "text_variables": {},
