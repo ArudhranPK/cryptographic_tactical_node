@@ -6621,9 +6621,9 @@
 			)
 		)
 	)
-	(global_label "RCC_OSC_OUT"
+	(global_label "RCC_OSC_IN"
 		(shape input)
-		(at 64.77 99.06 90)
+		(at 39.37 99.06 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6632,7 +6632,7 @@
 		)
 		(uuid "4f2d782f-9105-4079-8bc5-13f1804424c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.77 99.06 90)
+			(at 39.37 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6877,7 +6877,7 @@
 	)
 	(global_label "RCC_OSC_OUT"
 		(shape input)
-		(at 49.53 99.06 90)
+		(at 19.05 99.06 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6886,7 +6886,7 @@
 		)
 		(uuid "cbd46f35-2dd7-451f-86df-a265b31a33ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.53 99.06 90)
+			(at 19.05 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6899,7 +6899,7 @@
 	)
 	(global_label "RCC_OSC32_OUT"
 		(shape input)
-		(at 19.05 99.06 90)
+		(at 64.77 99.06 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6908,7 +6908,7 @@
 		)
 		(uuid "cf4f1ba4-0ca4-4aa6-8e06-9113027a135c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.05 99.06 90)
+			(at 64.77 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6945,7 +6945,7 @@
 	)
 	(global_label "RCC_OSC32_IN"
 		(shape input)
-		(at 39.37 99.06 90)
+		(at 49.53 99.06 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6954,7 +6954,7 @@
 		)
 		(uuid "e8e0c083-9b30-459b-bb41-0b7163bd3a54")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.37 99.06 90)
+			(at 49.53 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
