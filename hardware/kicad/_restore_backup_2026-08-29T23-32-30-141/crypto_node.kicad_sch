@@ -321,7 +321,7 @@
 		(instances
 			(project "crypto_node"
 				(path "/6c72b0cb-17b9-42a6-811c-297d0c354af3"
-					(page "6")
+					(page "5")
 				)
 			)
 		)
@@ -387,7 +387,7 @@
 		(instances
 			(project "crypto_node"
 				(path "/6c72b0cb-17b9-42a6-811c-297d0c354af3"
-					(page "5")
+					(page "6")
 				)
 			)
 		)

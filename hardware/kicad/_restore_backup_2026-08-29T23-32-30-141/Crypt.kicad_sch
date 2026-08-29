@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "90b3ac0b-d5bb-456c-bc54-7a80a7bef503")
-	(paper "A5")
+	(paper "A4")
 	(lib_symbols)
 	(hierarchical_label "CRYPT_SDA"
 		(shape bidirectional)
-		(at 132.08 62.23 0)
+		(at 142.24 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18,7 +18,7 @@
 	)
 	(hierarchical_label "CRYPT_SCL"
 		(shape input)
-		(at 132.08 68.58 0)
+		(at 142.24 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
