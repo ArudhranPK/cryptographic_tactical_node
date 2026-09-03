@@ -7108,17 +7108,6 @@
 		)
 		(uuid "584a705c-04b0-414b-87c0-34d83aa97f61")
 	)
-	(hierarchical_label "LORA_CTRL_M0"
-		(shape output)
-		(at 97.79 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "69870da9-c50a-4678-9edc-9ed5bca5b6e2")
-	)
 	(hierarchical_label "USART1_TX"
 		(shape output)
 		(at 173.99 77.47 0)
@@ -7151,17 +7140,6 @@
 			(justify left)
 		)
 		(uuid "a4d4d411-c221-490c-8093-eaa594a0976f")
-	)
-	(hierarchical_label "LORA_CRTL_M1"
-		(shape output)
-		(at 97.79 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a810e2ea-7996-435c-af9f-c76c06cc0459")
 	)
 	(hierarchical_label "I2C1_SDA"
 		(shape passive)

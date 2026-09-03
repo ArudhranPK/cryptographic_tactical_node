@@ -1,0 +1,513 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "6c72b0cb-17b9-42a6-811c-297d0c354af3")
+	(paper "A4")
+	(title_block
+		(title "Cryptographical Node")
+		(rev "1.0.0")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 99.06 88.9) (xy 121.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "143fbe54-5242-4013-babc-57caae30029e")
+	)
+	(wire
+		(pts
+			(xy 175.26 92.71) (xy 196.85 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b3565c0-cc4b-4440-b56b-ebe4d35bc942")
+	)
+	(wire
+		(pts
+			(xy 146.05 114.3) (xy 146.05 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6281fffe-d759-4df9-867d-ca228043c67f")
+	)
+	(wire
+		(pts
+			(xy 134.62 38.1) (xy 142.24 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77ae8ded-2ed1-4c2d-86ad-771a408073e6")
+	)
+	(wire
+		(pts
+			(xy 142.24 38.1) (xy 142.24 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f1fc42-7f09-4a18-829f-b4960c318986")
+	)
+	(wire
+		(pts
+			(xy 175.26 88.9) (xy 196.85 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8557622a-92cc-4a81-a450-c921aa535703")
+	)
+	(wire
+		(pts
+			(xy 151.13 114.3) (xy 151.13 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1fd5ad3-885b-42b8-afc7-1613a34a5709")
+	)
+	(wire
+		(pts
+			(xy 99.06 92.71) (xy 121.92 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec7c870f-2b3a-4366-82f9-f9cc68e3e391")
+	)
+	(sheet
+		(at 78.74 20.32)
+		(size 55.88 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0878dbd6-f23a-45b7-803f-70f55a38d748")
+		(property "Sheetname" "Power"
+			(at 78.74 19.6084 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 78.74 61.5446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BATTERY_PERCENTAGE" output
+			(at 134.62 38.1 0)
+			(uuid "1c30eb14-c4ad-466f-866f-a1d94631b5b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "crypto_node"
+				(path "/6c72b0cb-17b9-42a6-811c-297d0c354af3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 73.66)
+		(size 53.34 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "488b74a6-31ba-4017-bdff-d918575fe489")
+		(property "Sheetname" "STM32"
+			(at 121.92 72.9484 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32.kicad_sch"
+			(at 121.92 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BATTERY_PERCENTAGE" input
+			(at 142.24 73.66 90)
+			(uuid "d6a1175d-0e1c-475c-9725-10878c46e3b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SCL" passive
+			(at 121.92 88.9 180)
+			(uuid "23a018fd-ffef-48c4-a873-c0e4f1d71a43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SDA" passive
+			(at 121.92 92.71 180)
+			(uuid "5cae5417-d8bc-4077-ab25-d4a955a087b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART1_RX" input
+			(at 175.26 92.71 0)
+			(uuid "27ef6446-f504-45e0-a10f-ba17cf0bdf61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USART1_TX" output
+			(at 175.26 88.9 0)
+			(uuid "5ee87f95-3b40-44c5-b27b-9c5183092f87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USART2_RX" input
+			(at 151.13 114.3 270)
+			(uuid "ae33f5e0-700b-4298-97cc-9cddd45507dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART2_TX" output
+			(at 146.05 114.3 270)
+			(uuid "d50a982b-80e7-42dc-8016-de44f6ab6954")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "crypto_node"
+				(path "/6c72b0cb-17b9-42a6-811c-297d0c354af3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 81.28)
+		(size 53.34 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a6d9426e-b53a-46eb-ac04-bfb7b6f1fcf7")
+		(property "Sheetname" "LoRA"
+			(at 196.85 80.5684 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LoRA.kicad_sch"
+			(at 196.85 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LORA_RX" input
+			(at 196.85 88.9 180)
+			(uuid "45a62d7e-b03e-4805-a5fa-670d14354ea5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LORA_TX" output
+			(at 196.85 92.71 180)
+			(uuid "b5948df1-348b-43bd-b04b-9cdc5f73d793")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "crypto_node"
+				(path "/6c72b0cb-17b9-42a6-811c-297d0c354af3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 81.28)
+		(size 55.88 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b388d7dd-e85d-4888-b4a4-ed6170d89183")
+		(property "Sheetname" "Crypt"
+			(at 43.18 80.5684 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Crypt.kicad_sch"
+			(at 43.18 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CRYPT_SCL" input
+			(at 99.06 88.9 0)
+			(uuid "0dde9acd-02c2-412b-9f1b-1778c38a5beb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CRYPT_SDA" bidirectional
+			(at 99.06 92.71 0)
+			(uuid "6ad03841-d411-465d-9d3e-010be24cab16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "crypto_node"
+				(path "/6c72b0cb-17b9-42a6-811c-297d0c354af3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 20.32)
+		(size 53.34 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e87e5251-6a6f-477d-99f2-f9bb3f6c7b88")
+		(property "Sheetname" "Tampering"
+			(at 162.56 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Tampering.kicad_sch"
+			(at 162.56 61.5446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "crypto_node"
+				(path "/6c72b0cb-17b9-42a6-811c-297d0c354af3"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 123.19)
+		(size 53.34 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e995d37b-7e81-489c-a8c7-4473f579a36c")
+		(property "Sheetname" "GPS"
+			(at 121.92 122.4784 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPS.kicad_sch"
+			(at 121.92 164.4146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPS_RX" input
+			(at 146.05 123.19 90)
+			(uuid "a253d45f-f469-4aa8-ba08-576c1c790142")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPS_TX" output
+			(at 151.13 123.19 90)
+			(uuid "fa4f0649-2de5-4dcc-8bb3-a544b8b1bb84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "crypto_node"
+				(path "/6c72b0cb-17b9-42a6-811c-297d0c354af3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

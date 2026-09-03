@@ -1,0 +1,372 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-04T01:25:42",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.5",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/6c72b0cb-17b9-42a6-811c-297d0c354af3",
+            "violations": [
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'STATUS_LED'",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 1.0922
+                            },
+                            "uuid": "dee351c1-642e-4bb4-a2c4-faf293c750e7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'PROG_LED'",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 1.1303
+                            },
+                            "uuid": "17140b6f-0b0e-4ced-9228-5f7780339263"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'BATTERY_PERCENTAGE'",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 1.1684
+                            },
+                            "uuid": "584a705c-04b0-414b-87c0-34d83aa97f61"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Symbol 'USB_C_Receptacle_USB2.0_16P' doesn't match copy in library 'Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol J19 [USB_C_Receptacle_USB2.0_16P]",
+                            "pos": {
+                                "x": 0.2667,
+                                "y": 0.9017
+                            },
+                            "uuid": "c2b6088d-483a-4c77-b86b-aabc02f186c3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The symbol library 'TPS61023DRLR' was not found at '/home/arudhranpk/OneDrive/College/Sem7/project/cryptographic_tactical_node/hardware/kicad/custom/TPS61023DRLR/TPS61023DRLR.kicad_sym'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [TPS61023DRLR]",
+                            "pos": {
+                                "x": 0.6223,
+                                "y": 1.4859
+                            },
+                            "uuid": "8ef89253-bc55-4cce-ad05-8d28f75ad005"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The symbol library 'TLV74333PDBVR' was not found at '/home/arudhranpk/OneDrive/College/Sem7/project/cryptographic_tactical_node/hardware/kicad/custom/TLV74333PDBVR/TLV74333PDBVR.kicad_sym'",
+                    "items": [
+                        {
+                            "description": "Symbol U2 [TLV74333PDBVR]",
+                            "pos": {
+                                "x": 2.4511,
+                                "y": 0.3302
+                            },
+                            "uuid": "4a6ea873-66c0-42d8-951a-96e3279ff798"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The symbol library 'TLV74333PDBVR' was not found at '/home/arudhranpk/OneDrive/College/Sem7/project/cryptographic_tactical_node/hardware/kicad/custom/TLV74333PDBVR/TLV74333PDBVR.kicad_sym'",
+                    "items": [
+                        {
+                            "description": "Symbol U3 [TLV74333PDBVR]",
+                            "pos": {
+                                "x": 2.4511,
+                                "y": 0.7493
+                            },
+                            "uuid": "4da42e58-a735-4f6b-8c15-c1c8df021d31"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'Crystal_GND24' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol Y1 [Crystal_GND24]",
+                            "pos": {
+                                "x": 0.2921,
+                                "y": 1.1049
+                            },
+                            "uuid": "d8e28a17-6691-49f4-821f-41cd7db77414"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'TSA017A2518B'",
+                    "items": [
+                        {
+                            "description": "Symbol S1 [B3F-1000]",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 1.4478
+                            },
+                            "uuid": "c80b12bf-ea78-4fb9-ad2c-1c1f777d8cd3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'TSA017A2518B'",
+                    "items": [
+                        {
+                            "description": "Symbol S2 [B3F-1000]",
+                            "pos": {
+                                "x": 0.508,
+                                "y": 1.7272
+                            },
+                            "uuid": "47bc8edb-b1ba-4be5-a2d0-2b8eac8f2590"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'SolderJumper_2_Open' doesn't match copy in library 'Jumper'",
+                    "items": [
+                        {
+                            "description": "Symbol JP2 [SolderJumper_2_Open]",
+                            "pos": {
+                                "x": 2.4765,
+                                "y": 0.2286
+                            },
+                            "uuid": "c9bce3b5-85d1-4852-9ca6-f80944ec4061"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'SolderJumper_2_Open' doesn't match copy in library 'Jumper'",
+                    "items": [
+                        {
+                            "description": "Symbol JP3 [SolderJumper_2_Open]",
+                            "pos": {
+                                "x": 2.4765,
+                                "y": 0.3302
+                            },
+                            "uuid": "671d4d2e-a757-4bd4-83ad-2227ee99bb1a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'SolderJumper_2_Open' doesn't match copy in library 'Jumper'",
+                    "items": [
+                        {
+                            "description": "Symbol JP4 [SolderJumper_2_Open]",
+                            "pos": {
+                                "x": 2.5019,
+                                "y": 1.2319
+                            },
+                            "uuid": "74bd118c-76d7-4916-a973-2e75c15e2348"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                }
+            ]
+        },
+        {
+            "path": "/Power/",
+            "uuid_path": "/6c72b0cb-17b9-42a6-811c-297d0c354af3/0878dbd6-f23a-45b7-803f-70f55a38d748",
+            "violations": [
+                {
+                    "description": "Both CE and ~{TE} are attached to the same items; CE will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Global Label 'CE'",
+                            "pos": {
+                                "x": 1.0922,
+                                "y": 1.1176
+                            },
+                            "uuid": "97468f22-e5ed-41d8-8794-175dcbc28ed1"
+                        },
+                        {
+                            "description": "Global Label '~{TE}'",
+                            "pos": {
+                                "x": 1.0922,
+                                "y": 1.0668
+                            },
+                            "uuid": "730286a0-4674-435f-b2a6-dc485e0f28e2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "A pin with a \"no connection\" flag is connected",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR023 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.6985
+                            },
+                            "uuid": "b3a64029-6ffb-4472-be5e-f36665fbed04"
+                        },
+                        {
+                            "description": "No Connect",
+                            "pos": {
+                                "x": 0.3175,
+                                "y": 1.8415
+                            },
+                            "uuid": "0c6e43a9-359d-4991-80e0-25c54204bdd5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "no_connect_connected"
+                },
+                {
+                    "description": "A pin with a \"no connection\" flag is connected",
+                    "items": [
+                        {
+                            "description": "Symbol C13 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 2.6416,
+                                "y": 0.3302
+                            },
+                            "uuid": "96fb747a-e178-4488-a75f-26289dc9aee5"
+                        },
+                        {
+                            "description": "No Connect",
+                            "pos": {
+                                "x": 0.9525,
+                                "y": 1.8415
+                            },
+                            "uuid": "451e9be8-23b6-449d-8e55-b9f866db4b7a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "no_connect_connected"
+                },
+                {
+                    "description": "A pin with a \"no connection\" flag is connected",
+                    "items": [
+                        {
+                            "description": "Symbol C15 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 2.6416,
+                                "y": 0.7493
+                            },
+                            "uuid": "331d8277-e272-4d06-81ec-62dff21e7f82"
+                        },
+                        {
+                            "description": "No Connect",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 1.8415
+                            },
+                            "uuid": "34939f14-8138-49a8-8009-f51e39f30c9d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "no_connect_connected"
+                }
+            ]
+        },
+        {
+            "path": "/STM32/",
+            "uuid_path": "/6c72b0cb-17b9-42a6-811c-297d0c354af3/488b74a6-31ba-4017-bdff-d918575fe489",
+            "violations": [
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol D6 Pin 3 [DIN, Input, Line]",
+                            "pos": {
+                                "x": 2.4765,
+                                "y": 0.762
+                            },
+                            "uuid": "f8e859e1-f837-4fbb-b8bf-5c84c7942629"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/GPS/",
+            "uuid_path": "/6c72b0cb-17b9-42a6-811c-297d0c354af3/e995d37b-7e81-489c-a8c7-4473f579a36c",
+            "violations": []
+        },
+        {
+            "path": "/Crypt/",
+            "uuid_path": "/6c72b0cb-17b9-42a6-811c-297d0c354af3/b388d7dd-e85d-4888-b4a4-ed6170d89183",
+            "violations": []
+        },
+        {
+            "path": "/LoRA/",
+            "uuid_path": "/6c72b0cb-17b9-42a6-811c-297d0c354af3/a6d9426e-b53a-46eb-ac04-bfb7b6f1fcf7",
+            "violations": []
+        },
+        {
+            "path": "/Tampering/",
+            "uuid_path": "/6c72b0cb-17b9-42a6-811c-297d0c354af3/e87e5251-6a6f-477d-99f2-f9bb3f6c7b88",
+            "violations": []
+        }
+    ],
+    "source": "crypto_node.kicad_sch"
+}

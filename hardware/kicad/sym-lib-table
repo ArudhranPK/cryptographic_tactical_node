@@ -1,7 +1,4 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "TPS61023DRLR") (type "KiCad") (uri "${KIPRJMOD}/custom/symbols/TPS61023DRLR/TPS61023DRLR.kicad_sym") (options "") (descr ""))
-	(lib (name "TLV74333PDBVR") (type "KiCad") (uri "${KIPRJMOD}/custom/symbols/TLV74333PDBVR/TLV74333PDBVR.kicad_sym") (options "") (descr ""))
-	(lib (name "SLESD5Z5C") (type "KiCad") (uri "${KIPRJMOD}/custom/symbols/SLESD5Z5C/SLESD5Z5C.kicad_sym") (options "") (descr ""))
-	(lib (name "NEO_M8N") (type "KiCad") (uri "${KIPRJMOD}/custom/symbols/NEO_M8N/NEO_M8N.kicad_sym") (options "") (descr ""))
+	(lib (name "TPS61023DRLR") (type "KiCad") (uri "${KIPRJMOD}/custom/TPS61023DRLR/TPS61023DRLR.kicad_sym") (options "") (descr ""))
 )
